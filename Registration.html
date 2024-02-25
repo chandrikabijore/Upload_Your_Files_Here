@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <label for="file">
+        <i class="ion-images"></i>
+        
+
+    <div class="container">
+        <div class="heading">
+            <h1>Upload File</h1>
+        </div>
+        <div class="heading-f">
+            <h5>Flat - Entrance Foyer (Wall Elevation and Other Layout)</h5> <br><br>
+        </div>
+
+        <label>Project ID</label> 
+        <input type="number"> </input> <br>
+        <!-- <label>Option </label> 
+        <input> | </input> <br> -->
+        <div class="main-section">
+            <form class="form" id="form" onsubmit="return validate()">
+                <!-- <div>
+                    <label for="fullname"><b>Concept Img:</label><br>
+                    <input type="text" id="fullname" placeholder="No file chosen" required autocomplete="off"> <br>
+                    <div class="errorClass" id="error-name"></div>
+                    <button type="text">Choose File</button> 
+                </div> <br> -->
+
+                <br><label for="file"> <b>Concept img :  &nbsp; </b></label>
+                <input id="file" name="file" type="file" />  <br><br>
+                                  
+                <!-- <div>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" placeholder="Enter your full name" required autocomplete="off">
+                    <div class="errorClass" id="error-name"></div>
+                </div> -->
+                 
+                
+                <label for="file"> <b>File (.dwg) :  &nbsp; &nbsp; &nbsp;</b></label>
+                <input id="file" name="file" type="file" /> <br><br>
+                <!-- <div>
+                    <label for="email"><b>File (.dwg)</b></label><br>
+                    <input type="text" id="email" placeholder="No file chosen" required autocomplete="off"> 
+                    <div class="errorClass" id="error-email"></div>
+                    <button type="text">Choose File</button>
+                </div> <br> -->
+
+
+                <label for="file"> <b>PDF :  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  </b></label>
+                <input id="file" name="file" type="file" /> <br><br>
+                <!-- <div>
+                    <label for="password"><B>PDF:</B></label><br>
+                    <input type="password" id="password" placeholder="No file chosen" required>
+                    <div class="errorClass" id="error-pass"></div>
+                    <button type="text">Choose File</button>
+                </div> <br> -->
+
+
+                <label for="file"> Supporting File </label>
+                <input id="file" name="file" type="file" /> <br><br>
+                <!-- <div>
+                    <label for="password">Supporting File : </label><br>
+                    <input type="password" id="c-password" placeholder="No file chosen" required>
+                    <div class="errorClass" id="error-cpass"></div>
+                    <button type="text">Choose File</button>
+                </div> <br> -->
+
+                <!-- <div class="column">
+                    <div class="input-box"> <br>
+                        <label> Phone Number </label>
+                        <input type="number" placeholder="Enter phone number" required />
+                    </div> -->
+    
+                    <!-- <div class="input-box"> <br>
+                        <label>Birth Date </label><br>
+                        <input type="date" placeholder="Enter your birth date" required />
+                    </div> -->
+                </div>
+                <input class="sub" type="submit" id="button" value="Submit">
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</script>
+</body>
+</html>
+
